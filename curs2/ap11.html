@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*suma numarelor pare 
+        let n = + prompt('Va rog introduceti numarul'); 
+        let suma = 0;
+        for (let i=1; i <= n; i++){
+            if(i % 2 == 0){
+                suma+=i;
+            }
+
+    }
+    document.write(suma);*/
+
+    let produs =1;
+    let n = +prompt('Va rog intruduceti numarul', 1);
+    for(let i=1; i <=n; i++){
+        if( i % 2 ==1){
+            produs *= i;
+        }
+    }
+     document.write(`Produsul numerelor impare de la 1 pana ${n} este `, produs);
+    </script>
+</body>
+</html>
