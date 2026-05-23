@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://static.vecteezy.com/system/resources/previews/006/604/266/non_2x/romania-flag-with-waving-effect-official-proportion-vector.jpg);
+            
+        }
+        h2{
+            text-align: center;
+            
+        
+        }
+        img{
+            padding:0 630px;
+        }
+        div{
+            max-width: 520px;
+            margin: 0 auto;
+        }
+       .blue:hover{
+        background-color: blue;
+       }
+       .red:hover{
+        background-color: red;
+       }
+       .yellow:hover{
+        background-color: yellow;
+       }
+       .drapel:hover{
+    background: linear-gradient(
+        90deg,
+        blue,
+        yellow,
+        red
+    );
+       }
+    </style>
+</head>
+<body>
+    <h2>Schimba pantalonii Presedintelui ales</h2>
+    <img src="./rosu.jpg" id="calin" style=" width: 200px; height: 400px;">
+    <br>
+    <div>
+    <button onclick="document.getElementById('calin').src='./albastru.jpg'" class="blue">Pantaloni albastri</button>
+    <button onclick="document.getElementById('calin').src='./galben.jpg'" class="yellow">Pantaloni galbeni</button>
+    <button onclick="document.getElementById('calin').src='./rosu.jpg'" class="red">Pantaloni rosii</button>
+    <button onclick="document.getElementById('calin').src='./drapel.jpg'" class="drapel">Pantaloni tricolori</button>
+    </div>
+
+</body>
+</html>

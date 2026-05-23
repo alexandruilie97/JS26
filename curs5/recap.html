@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aut dicta, est iste quia quis similique commodi fugiat officiis cumque. Dolorem assumenda reiciendis suscipit dicta non rem doloremque? Aut, aspernatur!</p>
+        <p>Adipisci itaque minus repellat magni atque similique corrupti. Alias, molestias nisi. Corporis ex totam consequuntur eius reiciendis autem, recusandae quaerat eaque itaque repellat ut dolor amet nisi quos laudantium porro!</p>
+        <p>Architecto inventore, aliquam voluptatum ipsum quia rem blanditiis consectetur impedit ab illum fugiat dolorum vitae possimus accusamus reiciendis minima quis culpa placeat provident maxime dicta dignissimos corrupti! Ullam, neque laudantium!</p>
+    </div>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur vitae rerum quasi illo ullam? Facilis debitis in at, reprehenderit, dignissimos minima harum commodi numquam repellat tempore necessitatibus dolores distinctio.</p>
+        <p>Sed quod alias nesciunt fuga eligendi omnis vitae velit nostrum quia placeat officiis dolores ipsam eius consequatur perferendis dolore vel dicta laborum doloribus, aspernatur at excepturi nihil molestiae unde? Commodi!</p>
+        <p>Doloremque, provident quae aliquam placeat, labore animi quod aut facilis molestiae autem quo accusamus iusto obcaecati, in illo? Reprehenderit sint assumenda non consectetur consequatur blanditiis magni perferendis, temporibus tenetur delectus.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In harum quam eaque, sed expedita natus deserunt iusto illo sunt, neque aut reprehenderit, voluptates totam eos impedit debitis illum quis numquam.</p>
+        <p>Eligendi at eveniet, officia odit eum dolore deserunt nemo qui, assumenda ut nostrum nam magni minus tenetur. Odit tempore exercitationem laudantium deserunt eum esse ab asperiores aut, possimus, in labore?</p>
+        <p>Deleniti deserunt eius exercitationem saepe. Tenetur aspernatur non expedita facilis id soluta officia mollitia officiis voluptate excepturi omnis doloribus, quo beatae placeat nulla dolorum? Officiis suscipit quam atque minus quisquam.</p>
+    </div>
+    <script>
+        let arr =[0, 2 , 4, 9 , 15, 22, 55, 22, 54];
+        console.log(arr.length);
+        console.log(arr.reverse());
+        let newArr = arr.sort().reverse();
+        console.log(newArr);
+    </script>
+
+    <script>
+        let mydiv = document.getElementsByTagName('div');
+        for(let i = 0; i < mydiv.length; i++){
+            if( i % 2 == 0){
+                mydiv[i].style.border =' 2px solid blue';
+            }
+            else{
+                mydiv[i].style.border= '2px solid darkblue'
+            }
+        }
+
+        let paragraf = document.getElementsByTagName('p');
+        paragraf.innerHTML='Stai jos'
+    </script>
+</body>
+</html>

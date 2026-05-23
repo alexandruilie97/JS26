@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Functie standard care nu returneaza</p>
+    <script>
+        // metoda 1( clasica )se mai numeste procedura
+        function sumaNr(a,b){
+            console.log(a + b);
+        }
+        sumaNr(2,3);
+    </script>
+    <p>functie clasica cu return</p>
+    <script>
+        //metoda 2 - clasica cu return
+        function suma2(a,b){
+            return a + b;
+        }
+        let mySum = suma2(2,3);
+        console.log(mySum)
+    </script>
+    <p>Functie anonima</p>
+    <script>
+        //metoda 3 functia anonima
+        let suma = function (a,b){ return a + b};
+        console.log(suma);
+        console.log(suma(2, 3));
+    </script>
+    <p></p>
+    <script>
+        //metoda 4 functie anonima de tip arrow
+        var anon = (a, b) => a + b;//daca am o singura instructiune
+        console.log(anon(2,3));
+        //sau 
+        //metoda 5 functie anonima de tip arrow(landa)
+        var anon1 =(a, b) => { return a + b};
+        console.log(anon(2,3));
+       
+    </script>
+
+</body>
+</html>
